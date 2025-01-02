@@ -47,6 +47,7 @@ export default function() {
                 {
                   post && post.user && post.category && 
                   <div className={classes.textCont}>
+                    <div className={classes.postInfoCont}>Viewd: <span className={classes.postInfo}>{post.views}</span> times</div>
                     <div className={classes.postInfoCont}>Date: <span className={classes.postInfo}>{new Date(post.createdAt).toLocaleDateString("tr")}</span> </div>
                     <div className={classes.postInfoCont}>in the category <NavLink to={`/category/${post.category.slug}`} className={`${classes.navLink} ${classes.postInfo}`}>{post.category.name}</NavLink> </div>
                     <div className={classes.postInfoCont}>by <NavLink to={`/author/${post.user.username}`} className={`${classes.navLink} ${classes.postInfo}`}>@{post.user.username} ({post.user.name})</NavLink> </div>

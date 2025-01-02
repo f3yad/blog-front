@@ -1,6 +1,6 @@
 import axios from 'axios';
-const url = "http://localhost:3000";
-// const url = "https://uniproje.vercel.app";
+// const url = "http://localhost:3000";
+const url = "https://blogStajBackend.vercel.app";
 
 // ================== AUTH ==================
 // ================== AUTH ==================

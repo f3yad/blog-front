@@ -1,0 +1,8 @@
+.layout {
+  display: flex;
+}
+
+.outletCont {
+  flex: 1;
+  padding: 40px;
+}

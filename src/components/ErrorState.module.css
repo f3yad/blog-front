@@ -1,0 +1,7 @@
+.error {
+  border: 2px solid var(--colorRedDark);
+  background-color: var(--colorRedLight);
+  color: var(--colorRedDark);
+  padding: 20px 40px;
+  font-size: 1.3rem;
+}

@@ -1,0 +1,62 @@
+.header {
+  background-color: var(--colorBlue);
+  color: white;
+}
+
+.headerTitle {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.headerCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:80px;
+  padding: 10px 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.navMenuCont {
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  background-color: var(--colorBlueDark);
+}
+
+.navMenuCont:hover .navMenu {
+  display: flex;
+}
+
+.navMenuTitle {
+  padding: 0 10px;
+}
+
+.navMenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: var(--colorBlueDark);
+  flex-direction: column;
+}
+
+.navItem {
+  padding: 10px;
+  width: 150px;
+  color: white;
+  text-decoration: none;
+}
+
+.navItem:hover {
+  background-color: var(--colorBlue);
+}

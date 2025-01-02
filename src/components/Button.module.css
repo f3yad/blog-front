@@ -1,0 +1,39 @@
+.button {
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.button[data-type="Update"] {
+  background-color: var(--colorBlue);
+  color: white;
+}
+
+.button[data-type="Update"]:hover {
+  background-color: var(--colorBlueDark);
+}
+
+.button[data-type="Delete"] {
+  background-color: var(--colorRed);
+  color: white;
+}
+
+.button[data-type="Delete"]:hover {
+  background-color: var(--colorRedDark);
+}
+
+.button[data-type="Action"] {
+  background-color: var(--colorBlue);
+  color: white;
+}
+
+.button[data-type="Action"]:hover {
+  background-color: var(--colorBlueDark);
+}
+
+.button:disabled {
+  background-color: var(--colorGreyDark) !important;
+  color: black !important;
+  border: 1px solid var(--colorBlueDark);
+}

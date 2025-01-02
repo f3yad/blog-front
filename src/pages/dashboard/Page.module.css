@@ -1,0 +1,95 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.table {
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.tableHeadRow {
+  background-color: var(--colorBlueDark);
+  color: white;
+}
+
+.tableDataRow {
+  background-color: var(--colorGrey);
+}
+
+.tableDataRow:nth-of-type(2N) {
+  background-color: var(--colorGreyDark);
+}
+
+.table td,
+.table th {
+  padding: 20px 20px;
+}
+
+.buttonColumn {
+  width: 100px;
+}
+
+.overlayOpened {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  background-color: var(--colorGreyOverlay);
+}
+
+.overlayClosed {
+  display: none;
+}
+
+.form {
+  display: flex;
+  background-color: var(--colorGreyDark);
+  width: 500px;
+  margin: auto;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+  overflow-y: auto;
+  max-height: 700px;
+}
+
+.formTitle {
+  text-align: center;
+}
+
+.formInputCont {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.formLabel {
+  font-size: 1.2rem;
+  display: flex;
+  gap: 5px;
+}
+
+.formInput {
+  outline: none;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+}
+
+.formTextarea {
+  resize: none;
+  height: 300px !important;
+}
+
+.imageCont {
+  cursor: pointer;
+}
+
+.image {
+  width: 100%;
+}

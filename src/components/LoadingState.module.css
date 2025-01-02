@@ -1,0 +1,7 @@
+.loading {
+  border: 2px solid var(--colorBlueDark);
+  background-color: var(--colorBlueLight);
+  color: var(--colorBlueDark);
+  padding: 20px 40px;
+  font-size: 1.3rem;
+}

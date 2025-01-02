@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  background-color: var(--colorGreyDark);
+  width: 500px;
+  margin: auto;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+}
+
+.formTitle {
+  text-align: center;
+}
+
+.formInputCont {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.formLabel {
+  font-size: 1.2rem;
+}
+
+.formInput {
+  outline: none;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+}

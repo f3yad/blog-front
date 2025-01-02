@@ -1,0 +1,44 @@
+.card {
+  background-color: var(--colorGrey);
+  display: flex;
+  border: 2px solid var(--colorGreyDark);
+  text-decoration: none;
+  align-items: center;
+  max-width: 1000px;
+}
+
+.imgCont {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textCont {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.postTitle {
+  color: var(--colorBlueDark)
+}
+
+.postInfo {
+  color: black;
+}
+
+.postInfo span {
+  color: var(--colorBlueDark);
+  font-size: 1.3rem;
+}

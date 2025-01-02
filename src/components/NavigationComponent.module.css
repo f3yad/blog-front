@@ -1,0 +1,17 @@
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.navLink {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.navLink:hover,
+.navLink[data-active] {
+  background-color: var(--colorBlueDark)
+}
